@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38874" started-at="2019-09-28T17:11:31Z" finished-at="2019-09-28T17:12:10Z">
+    <groups>
+      <group name="regression">
+        <method signature="ClarityTest.A_SanityClarity()[pri:0, instance:ClarityTest@64616ca2]" name="A_SanityClarity" class="ClarityTest"/>
+        <method signature="ClarityTest.B_RegressionClarity()[pri:0, instance:ClarityTest@64616ca2]" name="B_RegressionClarity" class="ClarityTest"/>
+        <method signature="CropTest.A_RegressionCrop()[pri:0, instance:CropTest@13fee20c]" name="A_RegressionCrop" class="CropTest"/>
+        <method signature="CropTest.B_RegressionCrop2()[pri:0, instance:CropTest@13fee20c]" name="B_RegressionCrop2" class="CropTest"/>
+        <method signature="FilterTest.A_SanityFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="A_SanityFilter" class="FilterTest"/>
+        <method signature="FilterTest.B_RegrssionFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="B_RegrssionFilter" class="FilterTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ClarityTest.A_SanityClarity()[pri:0, instance:ClarityTest@64616ca2]" name="A_SanityClarity" class="ClarityTest"/>
+        <method signature="FilterTest.A_SanityFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="A_SanityFilter" class="FilterTest"/>
+      </group> <!-- sanity -->
+      <group name="full">
+        <method signature="ClarityTest.A_SanityClarity()[pri:0, instance:ClarityTest@64616ca2]" name="A_SanityClarity" class="ClarityTest"/>
+        <method signature="ClarityTest.B_RegressionClarity()[pri:0, instance:ClarityTest@64616ca2]" name="B_RegressionClarity" class="ClarityTest"/>
+        <method signature="ClarityTest.C_FullClarity()[pri:0, instance:ClarityTest@64616ca2]" name="C_FullClarity" class="ClarityTest"/>
+        <method signature="CropTest.A_RegressionCrop()[pri:0, instance:CropTest@13fee20c]" name="A_RegressionCrop" class="CropTest"/>
+        <method signature="CropTest.B_RegressionCrop2()[pri:0, instance:CropTest@13fee20c]" name="B_RegressionCrop2" class="CropTest"/>
+        <method signature="CropTest.C_FullCrop()[pri:0, instance:CropTest@13fee20c]" name="C_FullCrop" class="CropTest"/>
+        <method signature="FilterTest.A_SanityFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="A_SanityFilter" class="FilterTest"/>
+        <method signature="FilterTest.B_RegrssionFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="B_RegrssionFilter" class="FilterTest"/>
+        <method signature="FilterTest.C_FullFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="C_FullFilter" class="FilterTest"/>
+      </group> <!-- full -->
+    </groups>
+    <test name="Test" duration-ms="38874" started-at="2019-09-28T17:11:31Z" finished-at="2019-09-28T17:12:10Z">
+      <class name="CropTest">
+        <test-method status="PASS" signature="A_RegressionCrop()[pri:0, instance:CropTest@13fee20c]" name="A_RegressionCrop" duration-ms="1" started-at="2019-09-28T17:12:10Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_RegressionCrop -->
+        <test-method status="PASS" signature="B_RegressionCrop2()[pri:0, instance:CropTest@13fee20c]" name="B_RegressionCrop2" duration-ms="1" started-at="2019-09-28T17:12:10Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_RegressionCrop2 -->
+        <test-method status="PASS" signature="C_FullCrop()[pri:0, instance:CropTest@13fee20c]" name="C_FullCrop" duration-ms="1" started-at="2019-09-28T17:12:10Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_FullCrop -->
+      </class> <!-- CropTest -->
+      <class name="FilterTest">
+        <test-method status="PASS" signature="A_SanityFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="A_SanityFilter" duration-ms="12463" started-at="2019-09-28T17:11:31Z" finished-at="2019-09-28T17:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_SanityFilter -->
+        <test-method status="PASS" signature="B_RegrssionFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="B_RegrssionFilter" duration-ms="12934" started-at="2019-09-28T17:11:44Z" finished-at="2019-09-28T17:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_RegrssionFilter -->
+        <test-method status="PASS" signature="C_FullFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="C_FullFilter" duration-ms="13296" started-at="2019-09-28T17:11:57Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_FullFilter -->
+      </class> <!-- FilterTest -->
+      <class name="ClarityTest">
+        <test-method status="PASS" signature="CompileNDeployClarity()[pri:0, instance:ClarityTest@64616ca2]" name="CompileNDeployClarity" is-config="true" duration-ms="57" started-at="2019-09-28T17:11:31Z" finished-at="2019-09-28T17:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompileNDeployClarity -->
+        <test-method status="PASS" signature="CompileNDeployCrop()[pri:0, instance:CropTest@13fee20c]" name="CompileNDeployCrop" is-config="true" duration-ms="3" started-at="2019-09-28T17:11:31Z" finished-at="2019-09-28T17:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompileNDeployCrop -->
+        <test-method status="PASS" signature="CompileNDeployFilter()[pri:0, instance:FilterTest@3b81a1bc]" name="CompileNDeployFilter" is-config="true" duration-ms="2" started-at="2019-09-28T17:11:31Z" finished-at="2019-09-28T17:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompileNDeployFilter -->
+        <test-method status="PASS" signature="A_SanityClarity()[pri:0, instance:ClarityTest@64616ca2]" name="A_SanityClarity" duration-ms="0" started-at="2019-09-28T17:12:10Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_SanityClarity -->
+        <test-method status="PASS" signature="B_RegressionClarity()[pri:0, instance:ClarityTest@64616ca2]" name="B_RegressionClarity" duration-ms="1" started-at="2019-09-28T17:12:10Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_RegressionClarity -->
+        <test-method status="PASS" signature="C_FullClarity()[pri:0, instance:ClarityTest@64616ca2]" name="C_FullClarity" duration-ms="1" started-at="2019-09-28T17:12:10Z" finished-at="2019-09-28T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_FullClarity -->
+      </class> <!-- ClarityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
